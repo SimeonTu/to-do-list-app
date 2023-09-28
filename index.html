@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+		<h2>To Do List</h2>
+		<p><em> Click on the checkbox to check items on and off, click on "X" to delete an item, and drag items to reorder.</em></p>
+    
+        <ul id="list"></ul>
+
+		<div onclick="newItem()" id="button"><span>+</span> List item</div>
+		<br/>
+        
+        <div id="checkedCounter"><span></span> Ticked item/s</div>
+        <ul id="checkedList"></ul>
+
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+  integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
+  crossorigin="anonymous"></script>
+  <script src="./js/scripts.js"></script>
+    
+</body>
+</html>
